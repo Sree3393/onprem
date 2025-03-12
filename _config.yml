@@ -1,4 +1,4 @@
-title: Just the Docs Template
+title: On Premise Airgapped bare-metal OCP/CP4D/Watsonx.Ai
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
@@ -11,8 +11,8 @@ aux_links:
   Watsonx.ai: https://watsonx.ai
 
 
+logo: ibm-logo-transparent.png
 
-logo: "/Users/pratiks/Documents/projects/onpremdoc/onprem/image.png"
 color_scheme: dark
 nav_enabled: true
 # For copy button on code

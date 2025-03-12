@@ -1,7 +1,7 @@
 ---
 title: CP4D
 layout: default
-parent: OCP
+
 ---
 
 
