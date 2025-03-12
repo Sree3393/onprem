@@ -5,4 +5,16 @@ theme: just-the-docs
 url: https://just-the-docs.github.io
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  IBM: https://ibm.com
+  CP4D: https://www.ibm.com/products/cloud-pak-for-data
+  OpenShift:  https://www.ibm.com/cloud/openshift
+  Watsonx.ai: https://watsonx.ai
+
+
+
+logo: "/Users/pratiks/Documents/projects/onpremdoc/onprem/image.png"
+color_scheme: dark
+nav_enabled: true
+# For copy button on code
+enable_copy_code_button: true
+
