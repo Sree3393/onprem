@@ -1,7 +1,8 @@
 ---
-title: REQUIREMENTS
+title: Requirements
 layout: default
 parent: OCP
+nav_order: 1
 ---
 
 # Requirements  

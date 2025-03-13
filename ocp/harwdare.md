@@ -1,7 +1,7 @@
 ---
-title: HARDWARE
+title: Hardware Requirements
 layout: default
-parent: REQUIREMENTS
+parent: Requirements
 ---
 
 # Hardware Requirements
@@ -12,8 +12,10 @@ The **x86_64** architecture is the industry standard for enterprise computing, p
 ## SIZING  
 Proper sizing ensures optimal performance and resource allocation for various workloads. The table below outlines the required vCPU, RAM, and disk capacity for different node types in an airgapped OpenShift environment.  
 
-| Type       | VCPU | RAM | Disk |
+| Type       | VCPU | RAM (GB) | Disk (GB) | OS |
 |:-------------|:------------------|:------|:------|         
-| Master      | 4 | 16  | 100  |
-| Worker      | 16 | 64  | 300  |
-| GPU WORKER  | 32 | 256 | 500  |
+| Master      | 4 | 16  | 100  | CoreOS |
+| Worker      | 16 | 64  | 300  | CoreOS |
+| GPU Worker  | 32 | 256 | 500  | CoreOS |
+| Bastion  | 8 | 16 | 1000  | RHEL 9 |
+| Load balancer  | 4 | 8 | 100  | RHEL 9 |

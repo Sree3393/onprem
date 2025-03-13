@@ -12,9 +12,13 @@ aux_links:
 
 
 logo: ibm-logo-transparent.png
+favicon_ico: ibm.ico
 
 color_scheme: dark
 nav_enabled: true
 # For copy button on code
 enable_copy_code_button: true
 
+compress_html:
+  ignore:
+    envs: all

@@ -1,7 +1,7 @@
 ---
 title: GPU
 layout: default
-parent: HARDWARE
+parent: Hardware Requirements
 ---
 
 # GPU Requirements  

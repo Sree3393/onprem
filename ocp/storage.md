@@ -1,7 +1,7 @@
 ---
-title: STORAGE
+title: Storage
 layout: default
-parent: REQUIREMENTS
+parent: Requirements
 ---
 
 # Storage Requirements  

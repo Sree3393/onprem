@@ -1,7 +1,7 @@
 ---
-title: WHITELISTING
+title: Whitelisting
 layout: default
-parent: NETWORK
+parent: Network
 ---
 
 # Whitelisting  
