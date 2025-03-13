@@ -22,7 +22,7 @@ On the **bootstrap node**, run the following command to configure the **IP addre
 ```sh
 sudo nmtui
 ```
-![nmtui](\ocp\Download\installation\ntmui.png)
+![nmtui](https://raw.githubusercontent.com/pratiks360/onprem/refs/heads/main/ocp/Download/installation/ntmui.png)
 This command opens a **network configuration interface** where you should:  
 - Set the **IPv4 address**.  
 - Define the **gateway** and **DNS server** settings.  
@@ -68,7 +68,7 @@ After the installation is complete on all 3 masters, run the below command in ba
 ./openshift-install --dir <installation_directory> wait-for bootstrap-complete \ 
 --log-level=info 
 ```
-![complete](\ocp\Download\installation\complete.png)
+![complete](https://raw.githubusercontent.com/pratiks360/onprem/refs/heads/main/ocp/Download/installation/complete.png)
 
 ## **Step 5: Configure the Worker Nodes** 
 Follow the same procedure to configure and install CoreOS on **worker nodes**. 
@@ -96,7 +96,7 @@ oc get nodes
 ```
 
 **Expected output:**
-![nodes](\ocp\Download\installation\nodes.png)
+![nodes](https://raw.githubusercontent.com/pratiks360/onprem/refs/heads/main/ocp/Download/installation/nodes.png)
 
 Once all nodes are in the **Ready** state, the OpenShift cluster is fully initialized and operational.  
 Following these steps ensures a **smooth OpenShift installation** by correctly setting up the **bootstrap, master, and worker nodes**. 

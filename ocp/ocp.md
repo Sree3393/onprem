@@ -1,5 +1,5 @@
 ---
-title: OCP
+title: OpenShift
 layout: default
 nav_order: 2
 ---

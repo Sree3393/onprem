@@ -31,20 +31,27 @@ The **install-config.yaml** file is a crucial configuration file for OpenShift i
 
 ```yaml
 apiVersion: v1
-baseDomain: example.com
-metadata:
-  name: my-cluster
-controlPlane:
-  replicas: 3
-  platform:
-    aws:
-      type: m5.large
+baseDomain: mycluster.com
 compute:
-  - name: worker
-    replicas: 3
-    platform:
-      aws:
-        type: m5.large
+- hyperthreading: Enabled
+  name: worker
+  replicas: 0
+controlPlane: 
+  hyperthreading: Enabled
+  name: master
+  replicas: 3
+metadata:
+  name: wx
+networking:
+  clusterNetwork:
+  - cidr: 10.128.0.0/14
+    hostPrefix: 23
+  networkType: OVNKubernetes
+  serviceNetwork:
+  - 172.30.0.0/16
+platform:
+  none: {}
+fips: false
 pullSecret: '<your_redhat_pull_secret>'
 sshKey: '<your_ssh_public_key>'
 additionalTrustBundle: |

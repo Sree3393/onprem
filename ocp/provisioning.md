@@ -1,7 +1,7 @@
 ---
 title: Requirements
 layout: default
-parent: OCP
+parent: OpenShift
 nav_order: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Installation
 layout: default
-parent: OCP
+parent: OpenShift
 nav_order: 3
 ---
 

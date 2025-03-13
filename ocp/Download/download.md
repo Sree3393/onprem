@@ -1,7 +1,7 @@
 ---
 title: Downloads
 layout: default
-parent: OCP
+parent: OpenShift
 nav_order: 2
 ---
 
