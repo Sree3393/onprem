@@ -1,5 +1,5 @@
 title: On Premise Airgapped bare-metal OCP/CP4D/Watsonx.Ai
-description: A starter template for a Jeykll site using the Just the Docs theme!
+description: Offline Deployment for OCP, CP4D, and Watsonx.AI on Air-Gapped Bare-Metal Infrastructure
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
@@ -12,7 +12,7 @@ aux_links:
 
 
 logo: ibm-logo-transparent.png
-favicon_ico: ibm.ico
+favicon_ico: "https://raw.githubusercontent.com/pratiks360/onprem/refs/heads/main/ibm.ico"
 
 color_scheme: dark
 nav_enabled: true

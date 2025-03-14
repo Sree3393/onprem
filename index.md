@@ -9,7 +9,7 @@ has_children: true
 
 
 {: .fs-7 }
-On Premise Airgapped bare-metal OCP/CP4D/Watsonx.Ai
+Offline Deployment for OCP, CP4D, and Watsonx.AI on Air-Gapped Bare-Metal Infrastructure
 
 
 {: .highlight} 
