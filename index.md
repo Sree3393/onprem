@@ -31,7 +31,7 @@ This guide focuses on the following key aspects:
 
 5. Best Practices: Security hardening, performance optimization, and maintenance strategies for airgapped environments.
 
- ![arch](arch.png)
+ ![arch](https://raw.githubusercontent.com/pratiks360/onprem/refs/heads/main/arch.png)
 
 
 > {: .warning }
