@@ -12,3 +12,5 @@ Operator installations
 Cloud pak for Data
 Watsonx.AI
 This guide ensures a secure, reliable, and fully offline installation for enterprise deployments. 
+
+https://pratiks360.github.io/onprem/
