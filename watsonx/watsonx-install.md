@@ -10,7 +10,7 @@ parent: Watsonx.AI
 Watsonx.AI is deployed as a cartridge within IBM Cloud Pak for Data (CP4D). The installation process involves setting up the necessary components to run AI workloads effectively.  
 
 For detailed instructions on installing the Watsonx.AI cartridge, refer to the official IBM documentation:  
-Ref: [IBM Docs - Installing Watsonx.AI](https://www.ibm.com/docs/en/software-hub/5.1.x?topic=hub-installing-software)  
+Ref: [IBM Docs - Installing Watsonx.AI](https://www.ibm.com/docs/en/software-hub/5.1.x?topic=watsonxai-installing)  
 
 ---
 
@@ -18,7 +18,7 @@ Ref: [IBM Docs - Installing Watsonx.AI](https://www.ibm.com/docs/en/software-hub
 Operators are essential for managing and automating the deployment of Watsonx.AI. The `cpd-cli` command is used to install the required operator:  
 ```sh
 cpd-cli manage apply-olm  
---release=5.0.3  
+--release=5.1.1  
 --cpd_operator_ns=cpd-operators  
 --components=watsonx_ai  
 ```
