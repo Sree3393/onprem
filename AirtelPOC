@@ -1,0 +1,23 @@
+If working in a PROXY environment (where bastion has internet and nodes communicate through proxy):
+Pre-requisites:
+- URL's or github or IBM image hub links should be whitelisted from bastion
+- OCP once created, should be whitelisted from Bastion and respective nodes should be added to DNS
+- Necessary admin rights if using private registry
+- Trident IP's should be whitelisted and verify if they are accessible from nodes & bastion. If not done, mount errors are expected especially on ZEN pods.
+- SUPER USER access to be provided from NFS server to Storage VM, since it uses wrong permissions while mounting the folders. This results in errors while creating sub-directories on storage while creating DB's
+
+Challenges during OCP installation:
+- Proxys needs to be exported for HTTP. HTTPS
+- Check folders and space available before installing or downloading packages
+
+While following Assisted Installer to install OCP:
+- Reboot of nodes using ISO file should happen simultaneously since while rebooting it will look for ignition files
+    - if the boot order is incorrect, then there is the risk that upon reboot, the server will boot from the ISO again and not the hard disk. 
+    - The fix is to reboot the servers again and ensure that that they are booting from the hard disk.
+
+Challenges during CP4D installation:
+- Trident iP's not whitelisted which created issues while bringing up ZEN pods.
+- NFS server access was insufficient that avoided ZEN-METASTORE cluster to come up.
+- OCP URL should be declared as NO_PROXY and should be exported along with HTTP & HTTPS
+    - If not done, this will result in error while running any command as ./cpd-cli
+
